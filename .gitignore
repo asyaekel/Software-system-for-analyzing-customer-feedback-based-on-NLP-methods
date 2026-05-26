@@ -1,0 +1,28 @@
+# Віртуальне середовище Python
+venv/
+env/
+.env
+
+# Кеш Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Натреновані моделі (занадто важкі для Git)
+setfit_absa_model/
+
+# Бази даних SQLite (локальні дані користувачів)
+*.db
+*.sqlite3
+
+# CSV файли (тестові дані та згенеровані датасети)
+*.csv
+
+# Файли налаштувань IDE
+.vscode/
+.idea/
+
+# Системні файли ОС
+.DS_Store
+Thumbs.db
