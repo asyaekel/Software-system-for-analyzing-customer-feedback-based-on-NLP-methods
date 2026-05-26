@@ -284,4 +284,4 @@ with tab_dashboard:
                     if st.button("❌ Видалити файл", type="primary", use_container_width=True):
                         delete_file_data(st.session_state['user_id'], file_to_delete)
                         st.success(f"Дані файлу '{file_to_delete}' успішно видалено!")
-                        st.rerun()
+                    
